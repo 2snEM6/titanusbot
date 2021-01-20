@@ -28,6 +28,8 @@ client.on("message", async function(message) {
                 } else {
                     message.reply(`SINCOOO OCHEINTAAAIIIII SINCOOO`);
 
+                    const { ticker, price } = response;
+
                     setTimeout(() => {
                         message.reply(`${ticker.toUpperCase()}/USD latest price is ${price}`);
                     }, 2000);
