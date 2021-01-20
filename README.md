@@ -9,6 +9,10 @@
 ### Run
 `$ ./run.sh`
 
+### See logs
+
+`$ ./logs.sh`
+
 ### How to use
 
 After adding the bot to your discord server, type:
