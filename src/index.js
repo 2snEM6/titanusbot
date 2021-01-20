@@ -10,7 +10,7 @@ client.on("message", async function(message) {
 
     if (!message.content.startsWith(prefix)) return;
 
-    console.log(`Command received: ${message.content} by ${message.content.author.username}`);
+    console.log(`Command received: ${message.content} by ${message.author.username}`);
 
     const commandBody = message.content.slice(prefix.length);
     const args = commandBody.split(' ') || [];
