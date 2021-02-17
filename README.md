@@ -1,5 +1,13 @@
 # titanusbot
 
+### Dependencies
+
+You must have previously installed:
+
+- Docker
+- Docker Compose
+
+
 ### Setup
 
 `$ cp .env.dist .env`
